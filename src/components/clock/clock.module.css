@@ -1,0 +1,10 @@
+.clockTest{
+    width: 200px;
+    height: 75px;
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+    color: #2a9d8f;
+    background-color: #264653;
+    border-radius: 10px;
+}
