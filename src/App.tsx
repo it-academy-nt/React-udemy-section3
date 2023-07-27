@@ -1,4 +1,5 @@
 import Clock from "./components/clock/clock";
+import Counter from "./components/counter/counter";
 import { calcFunc, Operation } from '../utils/calculations/utils'
 import { useState, ChangeEvent } from "react";
 import './App.css'
@@ -53,6 +54,7 @@ function App() {
 
       </div>
       <Clock />
+      <Counter />
     </div>
   );
 }
